@@ -21,5 +21,5 @@ from test_part_store.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('testdj-yli5.onrender.com', index)
+    path('', index)
 ]
